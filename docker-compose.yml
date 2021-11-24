@@ -27,7 +27,7 @@ services:
     restart: always
     environment:
       - CACHING_SERVER=redis
-      - IPSTACK_KEY="${IPSTACK_KEY}"
+      - IPSTACK_KEY= "${IPSTACK_KEY}"
 
     networks:
       - api-network
@@ -38,7 +38,7 @@ services:
     restart: always
     environment:
       - CACHING_SERVER=redis
-      - IPSTACK_KEY="${IPSTACK_KEY}"
+      - IPSTACK_KEY= "${IPSTACK_KEY}"
 
     networks:
       - api-network
@@ -49,7 +49,7 @@ services:
     restart: always
     environment:
       - CACHING_SERVER=redis
-      - IPSTACK_KEY="${IPSTACK_KEY}"
+      - IPSTACK_KEY= "${IPSTACK_KEY}"
 
     networks:
       - api-network
