@@ -22,7 +22,7 @@ services:
       - api-network
 
   ipstack1:
-    image: dilshdakp/ipstack:v1
+    image: dilshadkp/ipstack:v1
     container_name: ipstack1
     restart: always
     environment:
