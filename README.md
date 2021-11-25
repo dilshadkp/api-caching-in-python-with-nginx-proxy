@@ -1,4 +1,4 @@
-# Dockerization of API caching application in python with nginx proxy loadbalancing
+# Dockerization of API caching python application with nginx loadbalancing
 
 ## Description
 This is a documentation explaing dockerization of an api caching project in python. This project is designed with an nginx proxy loadbalancer to loadbalance the traffic among api containers and a Redis cache container for api caching. 
